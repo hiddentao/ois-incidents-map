@@ -43,13 +43,14 @@ To build and run the map locally you will need to have installed
 Git clone this repo and set things up:
 
 ```bash
-$ npm install -g bower
+$ npm install bower
 $ npm install
 ```
 
 To run the server and rebuild the code automatically as you develop:
 
 ```bash
+$ sudo npm install -g gulp
 $ gulp
 ```
 
